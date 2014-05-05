@@ -3,43 +3,9 @@ from pprint import pprint
 
 
 domains = '''
-www.google.com
-www.fsdfsdfsdfsd.google.com
-digg.com
-imdb.com
-microsoft.com
+aipa.ca
+split5.ca
 
-www.google.org
-ddarko.org
-
-google.net
-www.asp.net
-
-google.pl
-www.ddarko.pl
-
-google.co.uk
-
-google.jp
-www.google.co.jp
-
-google.co
-google.de
-yandex.ru
-google.us
-google.eu
-google.me
-google.be
-google.biz
-google.info
-google.name
-
-google.it
-google.cz
-google.fr
-
-dfsdfsfsdf
-test.ez.lv
 '''
 
 #domains = ''
