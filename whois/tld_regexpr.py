@@ -259,3 +259,20 @@ fr = {
 'name_servers':				r'nserver:\s*(.+)',
 'status':					r'status:\s?(.+)',
 }
+
+ca = {
+'extend': None,
+
+'domain_name':				r'Domain name:\s?(.+)',
+
+'registrar':				r'Registrar:\s?(.+)',
+'registrant':				r'Registrant:\s?(.+)',
+
+'creation_date':			r'Creation date:\s?(.+)',
+'expiration_date':			r'Expiry date:\s?(.+)',
+'updated_date':				r'Updated date:\s?(.+)',
+
+'name_servers':				r'Name servers?:\s*(.+)\s*',
+'status':					r'Domain status:\s?(.+)',
+'emails':					r'[\w.-]+@[\w.-]+\.[\w]{2,4}',
+}
